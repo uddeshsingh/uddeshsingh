@@ -41,9 +41,11 @@
   ![Metrics](https://metrics.lecoq.io/uddeshsingh?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto)
 </a>
 
-<a href="https://github.com/uddeshsingh">
-  ![Snake animation](https://github.com/uddeshsingh/github-readme/blob/output/github-contribution-snake.svg)
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake.svg">
+</picture>
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
   <a href="https://readme-jokes.vercel.app"><img align="center" src="https://readme-jokes.vercel.app/api" alt="README Jokes"></a>
