@@ -36,11 +36,17 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uddeshsingh&show_icons=true&theme=dracula&hide_border=true" height="180" alt="stats graph"  />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uddeshsingh&layout=compact&theme=dracula&hide_border=true" height="180" alt="languages graph" />
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=uddeshsingh&theme=dracula&hide_border=true" alt="streak stats" />
+<a href="https://github.com/uddeshsingh">
+  ![Metrics](https://metrics.lecoq.io/uddeshsingh?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto)
+</a>
+
+<a href="https://github.com/uddeshsingh">
+  ![Snake animation](https://github.com/uddeshsingh/github-readme/blob/output/github-contribution-snake.svg)
+</a>
+
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <a href="https://readme-jokes.vercel.app"><img align="center" src="https://readme-jokes.vercel.app/api" alt="README Jokes"></a>
+</a>
+
 </div>
