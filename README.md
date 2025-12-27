@@ -22,9 +22,9 @@
 
 I am a Master's student in **Computer Science** at the **University of Texas at Dallas** (GPA 4.0), passionate about building scalable distributed systems and AI-driven applications.
 
-- **Current Role:** Software Development Intern at **Paycom** (working on .NET/React & OCR engines).
-- **Previous Experience:** Senior Associate at **American Express**, where I scaled internal tools using Golang and GKE.
-- **Achievements:** Paycom Code-a-thon Winner (2025) & Gupta Fellow at UT Dallas.
+- **Laatest Role:** Software Development Intern at **Paycom** (working on .NET/React & OCR engines).
+- **Previous Experience:** Senior Associate of Development at **American Express**, where I designed, developed and scaled internal tools using Python, Golang and GCP.
+- **Recent Achievements:** Paycom Code-a-thon Winner (2025) & Gupta Fellow at UT Dallas.
 - **Interests:** High-concurrency systems, Cloud Architecture (AWS/GCP), and Generative AI (RAG pipelines).
 
 ---
@@ -33,7 +33,7 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,go,cs,cpp,js,ts,sql&theme=dark" alt="Languages" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,django,dotnet,nodejs,postgres,mysql,redis,docker,kubernetes,aws,gcp,linux,git,githubactions,kafka,tensorflow,pytorch&theme=dark" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=react,django,dotnet,nodejs,postgres,mysql,redis,docker,kubernetes,aws,gcp,linux,git,githubactions,kafka&theme=dark" alt="Tools" />
 </div>
 
 ---
