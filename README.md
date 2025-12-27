@@ -20,11 +20,11 @@
 
 ### About Me
 
-I am a Master's student in **Computer Science** at the **University of Texas at Dallas** (GPA 4.0)[cite: 4, 8], passionate about building scalable distributed systems and AI-driven applications.
+I am a Master's student in **Computer Science** at the **University of Texas at Dallas** (GPA 4.0), passionate about building scalable distributed systems and AI-driven applications.
 
 - **Current Role:** Software Development Intern at **Paycom** (working on .NET/React & OCR engines).
 - **Previous Experience:** Senior Associate at **American Express**, where I scaled internal tools using Golang and GKE.
-- **Achievements:** Paycom Code-a-thon Winner (2025) & Gupta Fellow at UT Dallas[cite: 9, 10].
+- **Achievements:** Paycom Code-a-thon Winner (2025) & Gupta Fellow at UT Dallas.
 - **Interests:** High-concurrency systems, Cloud Architecture (AWS/GCP), and Generative AI (RAG pipelines).
 
 ---
@@ -42,9 +42,9 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **High Performance Chat App** | `Golang` `Redis` `React` | [cite_start]A high-concurrency chat platform supporting 10,000+ users/room with low latency. |
-| **Stock Investment Advisor** | `Python` `Gemini` `RAG` | [cite_start]AI chatbot using FAISS and GroqAI to analyze financial reports and news. |
-| **Auto Content Generator** | `AWS` `K8s` `FFmpeg` | [cite_start]Automated video production pipeline reducing manual effort by 90%. |
+| **High Performance Chat App** | `Golang` `Redis` `React` | A high-concurrency chat platform supporting 10,000+ users/room with low latency. |
+| **Stock Investment Advisor** | `Python` `Gemini` `RAG` | AI chatbot using FAISS and GroqAI to analyze financial reports and news. |
+| **Auto Content Generator** | `AWS` `K8s` `FFmpeg` | Automated video production pipeline reducing manual effort by 90%. |
 
 ---
 
