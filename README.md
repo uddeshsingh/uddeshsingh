@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F260,100:0575E6&height=300&section=header&text=Uddesh%20Singh&fontSize=90&animation=fadeIn&fontAlignY=38&desc=MS%20CS%20@%20UT%20Dallas%20|%20Full%20Stack%20&%20Cloud%20Engineer&descAlignY=55&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,100:5BC0BE&height=180&section=header&text=Uddesh%20Singh&fontColor=F2A541&fontSize=80&animation=fadeIn&fontAlignY=40" width="100%"/>
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F2A541&center=true&vCenter=true&width=600&lines=MS+CS+%40+UT+Dallas;Full+Stack+%26+Cloud+Engineer;AI+%26+Machine+Learning+Enthusiast" alt="Typing SVG" />
+  </a>
 </div>
 
 <div align="center">
@@ -22,7 +26,7 @@
 
 I am a Master's student in **Computer Science** at the **University of Texas at Dallas** (GPA 4.0), passionate about building scalable distributed systems and AI-driven applications.
 
-- **Laatest Role:** Software Development Intern at **Paycom** (working on .NET/React & OCR engines).
+- **Latest Role:** Software Development Intern at **Paycom** (working on .NET/React & OCR engines).
 - **Previous Experience:** Senior Associate of Development at **American Express**, where I designed, developed and scaled internal tools using Python, Golang and GCP.
 - **Recent Achievements:** Paycom Code-a-thon Winner (2025) & Gupta Fellow at UT Dallas.
 - **Interests:** High-concurrency systems, Cloud Architecture (AWS/GCP), and Generative AI (RAG pipelines).
@@ -42,9 +46,9 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **High Performance Chat App** | `Golang` `Redis` `React` | A high-concurrency chat platform supporting 10,000+ users/room with low latency. |
-| **Stock Investment Advisor** | `Python` `Gemini` `RAG` | AI chatbot using FAISS and GroqAI to analyze financial reports and news. |
-| **Auto Content Generator** | `AWS` `K8s` `FFmpeg` | Automated video production pipeline reducing manual effort by 90%. |
+| **Distributed Real-Time Watch Party** | `Golang` `Redis Pub/Sub` `WebSockets` `React` | Architected a **distributed system** handling 10k+ concurrent users via **sharding** and **event-driven** message delivery. |
+| **AI Financial Analyst** | `LangChain` `Groq` `RAG` `QLoRA` | Built a financial advisor by **fine-tuning** LLMs (QLoRA) and utilizing **Vector Search** (FAISS) for sub-second retrieval. |
+| **Cloud-Native AI Content Generator** | `AWS Lambda` `Kubernetes` `Docker` `FFmpeg` | Designed a **serverless** & containerized video pipeline, auto-scaling worker nodes to reduce processing time by 90%. |
 
 ---
 
