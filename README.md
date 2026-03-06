@@ -39,7 +39,9 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 ### GitHub Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=uddeshsingh&theme=dracula&no-bg=true&column=7&margin-w=15" alt="Trophies" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=uddeshsingh&theme=dracula&no-bg=true&column=7&margin-w=15" alt="trophy" />
+  </a>
 </div>
 
 ---
@@ -122,7 +124,7 @@ graph TD
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/github-metrics.svg" width="48%">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/leetcode%3Fusername%3Duddeshsingh%26theme%3Ddark%26hide_title%3Dtrue%26show_icons%3Dtrue" width="48%">
+<img src="https://github-readme-stats.vercel.app/api/leetcode%3Fusername%3Duddeshsingh%26theme%3Ddark%26hide_title%3Dtrue%26show_icons%3Dtrue" width="48%">
 </div>
 
 ---
