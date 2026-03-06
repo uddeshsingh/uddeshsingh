@@ -4,65 +4,130 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F2A541&center=true&vCenter=true&width=600&lines=MS+CS+%40+UT+Dallas;Full-Stack+%26+Cloud+Engineer;AI+%26+Machine+Learning+Enthusiast" alt="Typing SVG" />
   </a>
-
+  <br/>
   <img src="https://komarev.com/ghpvc/?username=uddeshsingh&color=5BC0BE&style=flat-square&label=PROFILE+VIEWS" alt="Visitor Counter" />
+</div>
+
+<div align="center">
+  <a href="https://linkedin.com/in/uddesh-singh">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:uddeshsingh@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/uddeshsingh">
+    <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white" alt="Github"/>
+  </a>
+  <a href="https://leetcode.com/uddeshsingh">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
 </div>
 
 ---
 
-### 👨‍💻 About Me
-I am a Master's student in **Computer Science** at **UT Dallas** (GPA 4.0), specializing in scalable distributed systems and AI.
-- 💼 **Latest:** Software Development Intern @ **Paycom**
-- 🏢 **Previously:** Senior Associate @ **American Express** (Python, Golang, GCP)
-- 🏆 **Recent:** Paycom Code-a-thon Winner (2025)
+### About Me
+
+I am a Master's student in **Computer Science** at the **University of Texas at Dallas** (GPA 4.0), actively seeking New Graduate and Entry-Level Software Engineering roles. I am passionate about building scalable distributed systems, network architectures, and AI-driven applications.
+
+- 💼 **Latest Role:** Software Development Intern at **Paycom** (working on .NET/React & OCR engines).
+- 🏢 **Previous Experience:** Senior Associate of Development at **American Express**, where I designed, developed and scaled internal tools using Python, Golang and GCP.
+- 🏆 **Achievements:** Paycom Code-a-thon Winner (2025) & Gupta Fellow at UT Dallas.
+- ⚡ **Interests:** High-concurrency systems, Cloud Architecture (AWS/GCP), and Generative AI (RAG pipelines).
 
 ---
 
-### 🏆 GitHub Achievements
+### GitHub Achievements
+
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=uddeshsingh&theme=dracula&no-bg=true&column=7&margin-w=15" alt="Trophies" />
 </div>
 
 ---
 
-### 🚀 Featured Project: WatchParty
-**Architecture Overview**
-<div align="center">
-  <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/watchparty-arch.svg" alt="WatchParty Architecture" width="100%">
-</div>
+### Tech Stack & Tools
 
-| Component | Technology | Role |
+| **Category** | **Technologies** |
+| :--- | :--- |
+| **Languages** | <img src="https://skillicons.dev/icons?i=py,go,java,cs,cpp,js,ts&theme=dark" align="middle" /> |
+| **Backend & Cloud** | <img src="https://skillicons.dev/icons?i=django,dotnet,nodejs,aws,gcp,docker,kubernetes,kafka,linux&theme=dark" align="middle" /> |
+| **Databases & Cache** | <img src="https://skillicons.dev/icons?i=postgres,mysql,redis&theme=dark" align="middle" /> |
+| **Frontend & Tools** | <img src="https://skillicons.dev/icons?i=react,git,githubactions&theme=dark" align="middle" /> |
+
+---
+
+### Featured Projects
+
+| Project | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **Backend** | `Golang` | High-concurrency WebSocket management & API |
-| **Real-time** | `Redis Pub/Sub` | Event-driven message distribution across shards |
-| **Frontend** | `React` | Synchronized video player & Chat UI |
-| **Deployment** | `Docker` | Containerized environment for consistent scaling |
+| **Distributed Real-Time Watch Party** | `Golang` `Redis` `WebSockets` `React` | Architected a **distributed system** handling 10k+ concurrent users via **sharding** and **event-driven** message delivery. |
+| **Network Path Visualizer** | `Python` `React` `Graph Algorithms` | Built a highly interactive tool for visualizing complex network routing, pathing, and architectural topologies. |
+| **AI Financial Analyst (SIA)** | `LangChain` `FAISS` `Gemini` | Built a financial advisor using a Retrieval-Augmented Generation (RAG) system for sub-second vector search retrieval. |
+| **Cloud-Native AI Video Generator** | `Kubernetes` `FastAPI` `Celery` `FFmpeg` | Designed a containerized video pipeline, auto-scaling worker nodes to reduce processing time by 90%. |
+
+#### 🏗️ WatchParty Architecture
+
+```mermaid
+graph TD
+    subgraph Clients
+        C1[React Client A]
+        C2[React Client B]
+    end
+
+    subgraph Load Balancer
+        LB[NGINX / Cloud LB]
+    end
+
+    subgraph Distributed Go Cluster
+        S1[Go Server Node 1]
+        S2[Go Server Node 2]
+    end
+
+    subgraph State & Messaging
+        R[(Redis Cluster)]
+        PS[Redis Pub/Sub]
+    end
+
+    C1 <-->|WebSocket| LB
+    C2 <-->|WebSocket| LB
+    LB <--> S1
+    LB <--> S2
+    S1 <-->|Publish/Subscribe| PS
+    S2 <-->|Publish/Subscribe| PS
+    PS <--> R
+```
 
 ---
 
-### 🏙️ 3D Contribution City
+### Interactive Chess
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/profile-3d-contrib/profile-night-view.svg" alt="3D City" width="100%"/>
+<p>Take a break and play a move against me!</p>
+<a href="https://www.google.com/search?q=https://github.com/uddeshsingh/uddeshsingh/issues/new%3Ftitle%3DChess%253A%2BMove%26body%3DPlease%2Bdo%2Bnot%2Bchange%2Banything%2Bin%2Bthis%2Bissue%2Bdescription.%2BJust%2Bclick%2B%2527Submit%2Bnew%2Bissue%2527%2Bto%2Bmake%2Byour%2Bmove.">
+<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/master/chess-board.svg" alt="Chess Board" />
+</a>
 </div>
 
 ---
 
-### 🕹️ Play Chess Against Me!
+### Daily Analytics
+
 <div align="center">
-  <a href="https://github.com/uddeshsingh/uddeshsingh/issues/new?body=Please+do+not+change+anything+in+this+issue+description.+Just+click+%27Submit+new+issue%27+to+make+your+move.&title=Chess+Move">
-    <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/master/chess-board.svg" alt="Chess Board" />
-  </a>
-  <p>Click the board to make a move! (Powered by GitHub Actions)</p>
+<img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/github-metrics.svg" alt="Metrics" width="48%">
+<img src="https://leetcard.jacoblin.cool/uddeshsingh?theme=dark&font=Fira%20Code&ext=activity" alt="LeetCode Stats" width="48%">
 </div>
 
 ---
 
-### 📊 Performance Metrics
+### Contributions
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/github-metrics.svg" alt="Metrics" width="48%">
-  <img src="https://leetcard.jacoblin.cool/uddeshsingh?theme=dark&font=Fira%20Code&ext=activity" alt="LeetCode Stats" width="48%">
+<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/profile-3d-contrib/profile-night-view.svg" alt="3D City" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,go,java,cs,cpp,js,ts,react,django,dotnet,nodejs,aws,gcp,docker,kubernetes,kafka,postgres,mysql,redis,git,githubactions&theme=dark" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake.svg">
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake.svg">
+</picture>
 </div>
