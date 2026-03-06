@@ -2,7 +2,6 @@ name: Contribution snake
 
 on:
   schedule:
-    # Runs at midnight every day
     - cron: "0 0 * * *" 
   workflow_dispatch:
 
@@ -10,13 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions: 
-      contents: write # This is required to push the new branch
+      contents: write
     steps:
       - uses: Platane/snk@v3
         with:
-          # Your GitHub username
           github_user_name: uddeshsingh
-          # Generates the snake
           outputs: |
             dist/github-contribution-snake.svg
             dist/github-contribution-snake-dark.svg?palette=github-dark

@@ -27,6 +27,5 @@ jobs:
           
           # lines=1 (Enables Lines of code)
           plugin_lines: yes
-          
-          # Fixed Timezone (You had Toronto, I changed to Oman/Muscat based on your location)
-          config_timezone: USA/Dallas
+    
+          config_timezone: America/Chicago
