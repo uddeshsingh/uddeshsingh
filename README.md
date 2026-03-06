@@ -66,35 +66,53 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 
 #### 🏗️ WatchParty Architecture
 
-```mermaid
 graph TD
-    subgraph Clients
-        C1[React Client A]
-        C2[React Client B]
+    %% Custom Styles
+    classDef frontend fill:#0D1B2A,stroke:#5BC0BE,stroke-width:2px,color:#FFF
+    classDef routing fill:#F2A541,stroke:#0D1B2A,stroke-width:2px,color:#000
+    classDef compute fill:#1B263B,stroke:#5BC0BE,stroke-width:2px,color:#FFF
+    classDef state fill:#415A77,stroke:#F2A541,stroke-width:2px,color:#FFF
+    classDef db fill:#336791,stroke:#FFF,stroke-width:2px,color:#FFF
+    classDef storage fill:#8C3061,stroke:#FFF,stroke-width:1px,color:#FFF
+
+    subgraph "🌐 Client Tier"
+        UI["💻 React SPA (Video & Chat)"]:::frontend
     end
 
-    subgraph Load Balancer
-        LB[NGINX / Cloud LB]
+    subgraph "🚦 Network & Edge"
+        CDN["📦 CloudFront/CDN (Static Assets)"]:::routing
+        LB["⚖️ Cloud Load Balancer (WSS/GRPC)"]:::routing
     end
 
-    subgraph Distributed Go Cluster
-        S1[Go Server Node 1]
-        S2[Go Server Node 2]
+    subgraph "⚙️ Go Microservices"
+        WS["🟢 WebSocket Handler (Sharded)"]:::compute
+        API["🔵 REST API (Auth & Rooms)"]:::compute
+        WORKER["🟣 Async Worker (Video Processing)"]:::compute
     end
 
-    subgraph State & Messaging
-        R[(Redis Cluster)]
-        PS[Redis Pub/Sub]
+    subgraph "⚡ Real-Time Layer"
+        PUBSUB["📢 Redis Pub/Sub (Event Bus)"]:::state
+        CACHE[("🗄️ Redis (Session & Lock)")]:::state
     end
 
-    C1 <-->|WebSocket| LB
-    C2 <-->|WebSocket| LB
-    LB <--> S1
-    LB <--> S2
-    S1 <-->|Publish/Subscribe| PS
-    S2 <-->|Publish/Subscribe| PS
-    PS <--> R
-```
+    subgraph "💾 Data & Storage"
+        DB[("🐘 PostgreSQL (Users & History)")]:::db
+        S3[("☁️ S3/GCS (Video Content)")]:::storage
+    end
+
+    %% Flow Connections
+    UI --"HTTPS (Fetch Assets)"--> CDN
+    UI <== "WSS (Persistent)" ==> LB
+    LB ==> WS
+    LB ==> API
+    
+    WS <-->|Broadcasting| PUBSUB
+    WS <-->|Sync State| CACHE
+    
+    API -->|Auth/CRUD| DB
+    WORKER --"Scan/Process"--> S3
+    WORKER --"Save Metadata"--> DB
+    API --"Enqueue Task"--> CACHE
 
 ---
 
