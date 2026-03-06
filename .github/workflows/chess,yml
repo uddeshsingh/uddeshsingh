@@ -1,0 +1,23 @@
+name: Play Chess
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'Chess:')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Play Move
+        uses: marcizhu/readme-chess@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "Move processed! Check the README for the updated board."
