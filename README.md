@@ -120,10 +120,10 @@ graph TD
 ### Interactive Chess
 
 <div align="center">
-<p>Take a break and play a move against me!</p>
-<a href="https://github.com/uddeshsingh/uddeshsingh/issues/new%3Ftitle%3DChess%253A%2BMove%26body%3DPlease%2Bdo%2Bnot%2Bchange%2Banything%2Bin%2Bthis%2Bissue%2Bdescription.%2BJust%2Bclick%2B%2527Submit%2Bnew%2Bissue%2527%2Bto%2Bmake%2Byour%2Bmove.">
-<img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/master/chess-board.svg" alt="Chess Board" />
-</a>
+  <p>Take a break and play a move against me!</p>
+  <a href="https://github.com/uddeshsingh/uddeshsingh/issues/new?title=Chess:+Move&body=Just+click+'Submit+new+issue'+to+confirm+your+move.+Do+not+change+the+title.">
+    <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/chess-board.svg" alt="Chess Board" />
+  </a>
 </div>
 
 ---
