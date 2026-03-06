@@ -65,7 +65,7 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 | **Cloud-Native AI Video Generator** | `Kubernetes` `FastAPI` `Celery` `FFmpeg` | Designed a containerized video pipeline, auto-scaling worker nodes to reduce processing time by 90%. |
 
 #### 🏗️ WatchParty Architecture
-
+```mermaid
 graph TD
     %% Custom Styles
     classDef frontend fill:#0D1B2A,stroke:#5BC0BE,stroke-width:2px,color:#FFF
@@ -113,6 +113,7 @@ graph TD
     WORKER --"Scan/Process"--> S3
     WORKER --"Save Metadata"--> DB
     API --"Enqueue Task"--> CACHE
+```
 
 ---
 
