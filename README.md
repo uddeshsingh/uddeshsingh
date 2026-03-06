@@ -46,25 +46,26 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 
 ### Tech Stack & Tools
 
-| **Category** | **Technologies** |
-| :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev/icons?i=py,go,java,cs,cpp,js,ts&theme=dark" align="middle" /> |
-| **Backend & Cloud** | <img src="https://skillicons.dev/icons?i=django,dotnet,nodejs,aws,gcp,docker,kubernetes,kafka,linux&theme=dark" align="middle" /> |
-| **Databases & Cache** | <img src="https://skillicons.dev/icons?i=postgres,mysql,redis&theme=dark" align="middle" /> |
-| **Frontend & Tools** | <img src="https://skillicons.dev/icons?i=react,git,githubactions&theme=dark" align="middle" /> |
+| **Category**          | **Technologies**                                                                                                                  |
+| :-------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| **Languages**         | <img src="https://skillicons.dev/icons?i=py,go,java,cs,cpp,js,ts&theme=dark" align="middle" />                                    |
+| **Backend & Cloud**   | <img src="https://skillicons.dev/icons?i=django,dotnet,nodejs,aws,gcp,docker,kubernetes,kafka,linux&theme=dark" align="middle" /> |
+| **Databases & Cache** | <img src="https://skillicons.dev/icons?i=postgres,mysql,redis&theme=dark" align="middle" />                                       |
+| **Frontend & Tools**  | <img src="https://skillicons.dev/icons?i=react,git,githubactions&theme=dark" align="middle" />                                    |
 
 ---
 
 ### Featured Projects
 
-| Project | Tech Stack | Description |
-| :--- | :--- | :--- |
-| **Distributed Real-Time Watch Party** | `Golang` `Redis` `WebSockets` `React` | Architected a **distributed system** handling 10k+ concurrent users via **sharding** and **event-driven** message delivery. |
-| **Network Path Visualizer** | `Python` `React` `Graph Algorithms` | Built a highly interactive tool for visualizing complex network routing, pathing, and architectural topologies. |
-| **AI Financial Analyst (SIA)** | `LangChain` `FAISS` `Gemini` | Built a financial advisor using a Retrieval-Augmented Generation (RAG) system for sub-second vector search retrieval. |
-| **Cloud-Native AI Video Generator** | `Kubernetes` `FastAPI` `Celery` `FFmpeg` | Designed a containerized video pipeline, auto-scaling worker nodes to reduce processing time by 90%. |
+| Project                               | Tech Stack                               | Description                                                                                                                 |
+| :------------------------------------ | :--------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| **Distributed Real-Time Watch Party** | `Golang` `Redis` `WebSockets` `React`    | Architected a **distributed system** handling 10k+ concurrent users via **sharding** and **event-driven** message delivery. |
+| **Network Path Visualizer**           | `Python` `React` `Graph Algorithms`      | Built a highly interactive tool for visualizing complex network routing, pathing, and architectural topologies.             |
+| **AI Financial Analyst (SIA)**        | `LangChain` `FAISS` `Gemini`             | Built a financial advisor using a Retrieval-Augmented Generation (RAG) system for sub-second vector search retrieval.       |
+| **Cloud-Native AI Video Generator**   | `Kubernetes` `FastAPI` `Celery` `FFmpeg` | Designed a containerized video pipeline, auto-scaling worker nodes to reduce processing time by 90%.                        |
 
 #### 🏗️ WatchParty Architecture
+
 ```mermaid
 graph TD
     %% Custom Styles
@@ -105,10 +106,10 @@ graph TD
     UI <== "WSS (Persistent)" ==> LB
     LB ==> WS
     LB ==> API
-    
+
     WS <-->|Broadcasting| PUBSUB
     WS <-->|Sync State| CACHE
-    
+
     API -->|Auth/CRUD| DB
     WORKER --"Scan/Process"--> S3
     WORKER --"Save Metadata"--> DB
@@ -117,22 +118,11 @@ graph TD
 
 ---
 
-### Interactive Chess
-
-<div align="center">
-  <p>Take a break and play a move against me!</p>
-  <a href="https://github.com/uddeshsingh/uddeshsingh/issues/new?title=Chess:+Move&body=Just+click+'Submit+new+issue'+to+confirm+your+move.+Do+not+change+the+title.">
-    <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/chess-board.svg" alt="Chess Board" />
-  </a>
-</div>
-
----
-
 ### Daily Analytics
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/github-metrics.svg" alt="Metrics" width="48%">
-<img src="https://leetcard.jacoblin.cool/uddeshsingh?theme=dark&font=Fira%20Code&ext=activity" alt="LeetCode Stats" width="48%">
+<img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/github-metrics.svg" width="48%">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/leetcode%3Fusername%3Duddeshsingh%26theme%3Ddark%26hide_title%3Dtrue%26show_icons%3Dtrue" width="48%">
 </div>
 
 ---
