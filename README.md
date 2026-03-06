@@ -121,10 +121,6 @@ graph TD
 ### Contributions
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/profile-3d-contrib/profile-night-view.svg" alt="3D City" width="100%"/>
-</div>
-
-<div align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/output/github-contribution-snake.svg">
