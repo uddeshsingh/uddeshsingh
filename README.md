@@ -124,7 +124,7 @@ graph TD
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/uddeshsingh/uddeshsingh/main/github-metrics.svg" width="48%">
-<img src="https://github-readme-stats.vercel.app/api/leetcode%3Fusername%3Duddeshsingh%26theme%3Ddark%26hide_title%3Dtrue%26show_icons%3Dtrue" width="48%">
+<img src="https://leetcard.jacoblin.cool/uddeshsingh?theme=dark&font=Fira%20Code&ext=activity" width="48%" alt="LeetCode Stats" />
 </div>
 
 ---
