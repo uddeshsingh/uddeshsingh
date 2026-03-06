@@ -20,5 +20,8 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "Updated 3D Contribution City"
+          # The '|| exit 0' prevents the action from failing if there are no new commits to make today
+          git commit -m "Updated 3D Contribution City" || exit 0
+          # This pulls your latest README edits before pushing the images
+          git pull --rebase origin main
           git push
