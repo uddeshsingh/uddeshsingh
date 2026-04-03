@@ -40,7 +40,7 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=uddeshsingh&theme=dracula&no-bg=true&column=7&margin-w=15" alt="trophy" />
+    <img src="https://gh-trophy.cdnsoft.net//?username=uddeshsingh&theme=dracula&no-bg=true&column=7&margin-w=15" alt="trophy" />
   </a>
 </div>
 
