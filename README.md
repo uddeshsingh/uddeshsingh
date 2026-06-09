@@ -66,60 +66,6 @@ I am a Master's student in **Computer Science** at the **University of Texas at 
 | **AI Financial Analyst (SIA)**        | `LangChain` `FAISS` `Gemini`             | Built a financial advisor using a Retrieval-Augmented Generation (RAG) system for sub-second vector search retrieval.       |
 | **Cloud-Native AI Video Generator**   | `Kubernetes` `FastAPI` `Celery` `FFmpeg` | Designed a containerized video pipeline, auto-scaling worker nodes to reduce processing time by 90%.                        |
 
-#### 🏗️ WatchParty Architecture
-
-```mermaid
-graph TD
-    %% Custom Styles
-    classDef frontend fill:#0D1B2A,stroke:#5BC0BE,stroke-width:2px,color:#FFF
-    classDef routing fill:#F2A541,stroke:#0D1B2A,stroke-width:2px,color:#000
-    classDef compute fill:#1B263B,stroke:#5BC0BE,stroke-width:2px,color:#FFF
-    classDef state fill:#415A77,stroke:#F2A541,stroke-width:2px,color:#FFF
-    classDef db fill:#336791,stroke:#FFF,stroke-width:2px,color:#FFF
-    classDef storage fill:#8C3061,stroke:#FFF,stroke-width:1px,color:#FFF
-
-    subgraph "🌐 Client Tier"
-        UI["💻 React SPA (Video & Chat)"]:::frontend
-    end
-
-    subgraph "🚦 Network & Edge"
-        CDN["📦 CloudFront/CDN (Static Assets)"]:::routing
-        LB["⚖️ Cloud Load Balancer (WSS/GRPC)"]:::routing
-    end
-
-    subgraph "⚙️ Go Microservices"
-        WS["🟢 WebSocket Handler (Sharded)"]:::compute
-        API["🔵 REST API (Auth & Rooms)"]:::compute
-        WORKER["🟣 Async Worker (Video Processing)"]:::compute
-    end
-
-    subgraph "⚡ Real-Time Layer"
-        PUBSUB["📢 Redis Pub/Sub (Event Bus)"]:::state
-        CACHE[("🗄️ Redis (Session & Lock)")]:::state
-    end
-
-    subgraph "💾 Data & Storage"
-        DB[("🐘 PostgreSQL (Users & History)")]:::db
-        S3[("☁️ S3/GCS (Video Content)")]:::storage
-    end
-
-    %% Flow Connections
-    UI --"HTTPS (Fetch Assets)"--> CDN
-    UI <== "WSS (Persistent)" ==> LB
-    LB ==> WS
-    LB ==> API
-
-    WS <-->|Broadcasting| PUBSUB
-    WS <-->|Sync State| CACHE
-
-    API -->|Auth/CRUD| DB
-    WORKER --"Scan/Process"--> S3
-    WORKER --"Save Metadata"--> DB
-    API --"Enqueue Task"--> CACHE
-```
-
----
-
 ### Daily Analytics
 
 <div align="center">
